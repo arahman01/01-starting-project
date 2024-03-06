@@ -1,7 +1,7 @@
 import classes from "./AvailableMeals.module.css";
 import Card from "../UI/Card";
 import MealItem from "./MealItem/MealItem";
-import { mealsData } from "../data/data";
+import { mealsData } from "../../data/data";
 
 const AvailableMeals = () => {
   const mealsList = mealsData.map((meal) => (
