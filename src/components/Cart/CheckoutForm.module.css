@@ -1,0 +1,58 @@
+.main {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  border: 2px solid #8a2b06;
+  border-radius: 12px;
+}
+
+.heading {
+  padding: 1rem;
+  text-align: center;
+}
+
+.formContainer {
+  padding: 1rem;
+}
+
+.formGroup {
+  margin-bottom: 15px;
+}
+
+.formControl {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.errorMessage {
+  color: red;
+  font-size: 12px;
+}
+
+.submitButton:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.submitButton {
+  font: inherit;
+  cursor: pointer;
+  background-color: transparent;
+  border: 1px solid #8a2b06;
+  padding: 0.5rem 2rem;
+  border-radius: 25px;
+  margin-left: 1rem;
+}
+
+.submitButton:hover,
+.submitButton:active {
+  background-color: #5a1a01;
+  border-color: #5a1a01;
+  color: white;
+}
+
+.submitButton {
+  background-color: #8a2b06;
+  color: white;
+}
